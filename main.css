@@ -1,3 +1,9 @@
+
+
+*{
+	box-sizing: border-box;
+}
+
 header{
 	height: 300px;
 	margin-top: 50px;
@@ -8,23 +14,29 @@ header{
 }
 
 aside{
-	height: 400px;
-	width: 29%;
-	margin-right: 1%;
+	height: 200px;
+	width: 33.33%;
 	float: left;
 	background-color:#F7A9A8 ;
+
 	
 }
 
 article{
-	height: 400px;
-	width: 70%;
-	float: right;
-	background-color:#EBCFB2;
-	margin-bottom: 10px;
+	height: 200px;
+	width: 33.33%;
+	float: left;
+	background-color:black ;
+	/*margin-bottom: 10px;*/
+	
 }
 
 
+section{
+	border: 1px solid white;
+	height: 400px;
+
+}
 
 
 footer{
@@ -32,8 +44,32 @@ footer{
 	margin-top: 10px;
 	background-color:#FFEBE7;
 	clear: both;
-	}
+}
 	
-	*{
-		box-sizing: border-box;
-	}
+	
+
+
+/* beautiful broken layout */
+/*
+
+aside{
+	height: 200px;
+	width: 25%;
+	float: right;
+	background-color:#F7A9A8 ;
+
+	
+}
+
+
+article{
+	height: 200px;
+	width: 25%;
+	float: left;
+	background-color:black ;
+	margin-bottom: 10px;
+	
+}
+*/
+	
+	
