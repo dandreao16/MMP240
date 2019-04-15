@@ -1,3 +1,6 @@
+
+
+/*STEP 1: target img tag to change to display block instead of inline-block*/
 .featured-image img {
 
 	display:block;
