@@ -14,15 +14,23 @@
 html {font-size: 16px;}
 
 body {
-  background-color: #f5cbaa;
+  background-image: url("btsback2.jpg");
+  background-color:rgba(100,0,0,0.1);
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color:  #033256;
+  color:  black;
 }
+
+img{
+  display: block;
+  width: 100%;
+}
+
 section{ 
 
-		max-width: 770px;
+		/*max-width: 770px;*/
+    width: 80%;
 		margin: auto;
  }
 
@@ -49,6 +57,8 @@ h4 {font-size: 1.777em;}
 h5 {font-size: 1.333em;}
 
 small, .text_small {font-size: 0.75em;}
+
+
 
 
 @media only screen and (min-width: 1000px){
