@@ -1,0 +1,47 @@
+ .gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "begin"
+        "break"
+        "mod"
+        "inter"
+        "world"
+}
+
+
+.begin {
+grid-area: begin;
+}
+
+.break{
+grid-area: break;
+
+}
+
+.mod{
+grid-area: mod;
+
+}
+
+.inter{
+grid-area: inter;
+
+}
+
+.world{
+grid-area: world;
+
+}
+
+@media only screen and (min-width: 1200px){
+   .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+        "begin break"
+        "mod inter"
+        "world world"
+}
+}
