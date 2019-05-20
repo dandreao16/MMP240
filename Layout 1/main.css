@@ -1,0 +1,24 @@
+header{
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	background-color:#FFEBE7;
+	
+
+}
+
+section{
+	height: 400px;
+	margin-bottom: 10px;
+	background-color:#EBCFB2;
+}
+
+
+footer{
+	height: 150px;
+	background-color:#F7A9A8;
+	}
+	
+	*{
+		box-sizing: border-box;
+	}
