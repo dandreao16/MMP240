@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Zucchini Slices</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="mobilenav_responsive-midterm.css">
+        <link rel="stylesheet" type="text/css" href="style-grid.css"> 
+    </head>
+    <body>
+
+      <nav class="topnav" id="myTopnav">
+         <a href="index.html" class="active">Home</a>
+           <a href="cake.html">How To Make</a>
+          
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+      </nav>
+       
+       
+       
+      <h1>How To Make Marmalade Cake</h1>
+
+      <img src="cake.jpg">
+         
+        
+        
+        <script>            
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    </body>
+</html>
