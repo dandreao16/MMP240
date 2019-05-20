@@ -68,8 +68,7 @@ small, .text_small {font-size: 0.75em;}
 
 a{
 color:black;
-text-decoration: none;
-background-color: #d8c3d7;
+text-decoration: underline;
 font-style: italic;
 padding: 3px;
 }
